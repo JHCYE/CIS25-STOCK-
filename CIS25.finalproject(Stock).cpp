@@ -21,7 +21,7 @@ Transaction transactions[MAX_RECORDS];
 int transactionCount = 0;
 int stock[NUM_ITEMS] = { 0 };  // Current Inventory
 
-//  Load transaction history
+//  Localtime
 string getTimestamp() {
     time_t tt = time(nullptr);
     struct tm ti;
